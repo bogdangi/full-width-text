@@ -1,5 +1,5 @@
 function OneLineResizedText(el){
-  var stepSize = stepSize || 1;
+  	var stepSize = stepSize || 1;
 	var height = $(el).height();
 	var lineHeight = parseFloat($(el).css('line-height'));
 	while (height > lineHeight){
